@@ -1,17 +1,14 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <Componente />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Componente from "./components/Componente.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Componente,
   },
 };
 </script>
@@ -25,4 +22,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+body{
+  background-image: url(assets/cropped-RM_page-header_background1-3.png);
+}
+
 </style>
